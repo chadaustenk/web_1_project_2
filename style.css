@@ -1,0 +1,210 @@
+body {
+  background-image:
+url(https://raw.githubusercontent.com/tyreil/web_1_project_2/master/assets/textures/fabric_plaid.png);
+}
+
+/* section one *****************************/
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px ;
+}
+
+#left {
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 75%;
+		border: 2px solid red;
+}
+
+#right {
+	background: grey;
+	display:flex;
+	flex-direction:;
+	align-items:;
+	justify-content:center;
+		border:;
+}
+
+.icon {
+	width: 50px;
+}
+
+/* section 2 **********************/
+
+#slider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: gray;
+	height: 450px;
+	width: 805px;
+	border: 10px solid white;
+	
+}
+
+#feature-bar {
+background-color: gray;
+	height: 450px;
+	width: px;
+}
+	
+#left-arrow {
+	max-width: 50px;
+	position: absolute;
+	top: 280px;
+	left: -6px;
+}
+
+#right-arrow {
+	max-width: 50px;
+	position: absolute;
+	top: 280px;
+	left: 798px;
+}
+
+user {
+	display: flex;
+	align-items: column;
+	justify-content: space-between;
+	background-color: grey;
+	height: 150px;
+	width: 500px;
+	border: 4px solid white;
+	margin: 5px;
+}
+
+
+#user-image {
+	backgorund-color: white;
+	width: 100px;
+		height: 100px;
+}
+
+/* 	*** */
+	
+header {
+	display: flex;
+	
+}
+
+#card{
+	display: flex;
+	flex-direction: row;
+}
+
+.card {
+	width: 200px;
+	height: 150px;
+	margin: 10px;
+	background: grey;
+	display: flex;
+	flex-direction:;
+	align-items: flex-end;
+	border: 8px solid white;
+
+}
+
+.gallery {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.port {
+  background: dimgrey;
+  height: 12vh;
+  width: 200px;
+  margin: 1%;
+}
+
+
+#tweet{
+	WIDTH: 100%;
+	HEIGHT: 50px;
+	background: dimgray;
+}
+	
+#bird{
+		width: 25px;
+		height: 25px;
+		
+	}
+	
+/* ban **************************/
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+  text-decoration: none;
+  background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+  color: white;
+  background-color: #666;
+  background-blend-mode: overlay;
+  padding: 15px 50px;
+}
+
+.bird{
+  width: 20px;
+  height: 20px;
+  padding: 14px;
+}
+
+#tweetban{
+  background: grey;
+  width: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0;
+}
+
+/* end **************************/
+
+#footer-columns{
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  padding: 30px;
+  background: url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+  background-color: #555;
+	background-blend-mode: overlay;
+  margin: 10px 0;
+  
+}
+
+.footer-column{
+  width: 33%;
+}
+
+.search{
+  width: 20px;
+  height: 18px;
+  background: url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+  background-color: #555;
+	background-blend-mode: overlay;
+}
+
+#jjjj{
+ width: 60px;
+ height: 60px;
+}
+
+#top{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+}
+#slid-alt{
+		border: 5px ;
+}
+
+
